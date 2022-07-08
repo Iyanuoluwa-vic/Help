@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 
+================================
+Hero-header
+================================
+*/
+.hero-header {
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(
+      to bottom,
+      rgba(46, 109, 234, 0.73) 0%,
+      rgba(84, 137, 242, 0.73) 100%
+    ),
+    url(./pexels-the-th-179911.jpg) center/cover no-repeat fixed;
+  position: relative;
+}
+
+/* 
+================================
+Hero-center
+================================
+*/
+.hero-center {
+  position: absolute;
+  width: 90%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  text-transform: capitalize;
+}
+
+/* 
+================================
+Hero-description
+================================
+*/
+.hero-description {
+  padding-top: 0.5rem;
+}
+
+/* Hero-button*/
+a {
+  text-decoration: none;
+}
+
+.hero-btn {
+  display: inline-block;
+  border: 2px solid white;
+
+  margin-top: 2rem;
+  padding: 10px 2rem 10px 2rem;
+  color: aliceblue;
+}
+
+/* 
+================================
+span for logo
+================================
+*/
+
+span {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  font-size: 3rem;
+  color: antiquewhite;
+}
