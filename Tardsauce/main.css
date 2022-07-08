@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  max-width: 80px;
+  margin-bottom: 2rem;
+}
+
+.par-1 {
+  background-color: blue;
+  color: aliceblue;
+}
+
+.par-2 {
+  background-color: green;
+  color: aliceblue;
+}
+
+.par-3 {
+  background-color: red;
+  color: aliceblue;
+}
+
+div {
+  display: grid;
+  grid-template-rows: repeat(auto-fit, minmax(200px, 1fr));
+}
